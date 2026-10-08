@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Huellitas Comunitarias</title>
+
+    <style>
+
+        /* ESTILOS GENERALES */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff5ee;
+            color: #4d3b30;
+        }
+
+        /* ENCABEZADO */
+
+        header {
+            background-color: #f2c6b4;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* MENU DE NAVEGACION */
+
+        nav {
+            background-color: #8b6f47;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #f2c6b4;
+            color: #4d3b30;
+        }
+
+        /* CONTENIDO */
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        /* INICIO */
+
+        .inicio {
+            text-align: center;
+        }
+
+        .inicio img {
+            width: 350px;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .mensaje {
+            text-align: center;
+            background-color: #f2c6b4;
+        }
+
+        /* GALERIA */
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .animal {
+            width: 220px;
+            background-color: #fff5ee;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .animal img {
+            width: 200px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* BOTONES */
+
+        button {
+            background-color: #8b6f47;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #6f5637;
+        }
+
+        /* DONACIONES */
+
+        .donaciones {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .donacion {
+            width: 250px;
+            background-color: #fff5ee;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .donacion h3 {
+            text-align: center;
+        }
+
+        /* CENTRO DE ACOPIO */
+
+        .acopio {
+            background-color: #f2c6b4;
+            text-align: center;
+        }
+
+        /* PIE DE PAGINA */
+
+        footer {
+            background-color: #8b6f47;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+
+    <header>
+
+        <h1>Huellitas Comunitarias</h1>
+
+        <p>Proyecto PAEC</p>
+
+    </header>
+
+
+    <!-- MENU -->
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#adopciones">Adopciones</a>
+
+        <a href="#donaciones">Donaciones</a>
+
+    </nav>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+    <main>
+
+
+        <!-- INICIO -->
+
+        <section id="inicio" class="inicio">
+
+            <h2>Bienvenidos a Huellitas Comunitarias</h2>
+
+            <p>
+                Huellitas Comunitarias es un proyecto del programa
+                PAEC que busca ayudar a los animales que se encuentran
+                en situación de calle.
+            </p>
+
+            <p>
+                El propósito de este proyecto es promover la adopción
+                responsable y apoyar a los animales por medio de
+                donaciones.
+            </p>
+
+            <img src="c:\Users\Admin\Pictures\Screenshots\Captura de pantalla 2026-10-08 091623.png"
+                 alt="Perritos en adopción">
+
+        </section>
+
+
+        <!-- MENSAJE DE CONCIENTIZACION -->
+
+        <section class="mensaje">
+
+            <h2>Bienestar Animal</h2>
+
+            <p>
+                Todos los animales necesitan alimento, cuidados,
+                protección y un lugar seguro donde vivir.
+            </p>
+
+            <p>
+                Adoptar de manera responsable es una forma de cambiar
+                la vida de un animal y ayudar a nuestra comunidad.
+            </p>
+
+        </section>
+
+
+        <!-- ADOPCIONES -->
+
+        <section id="adopciones">
+
+            <h2>Animales disponibles para adopción</h2>
+
+            <p>
+                Conoce algunos de los perros y gatos que buscan
+                una familia responsable.
+            </p>
+
+
+            <div class="galeria">
+
+
+                <!-- PERRO 1 -->
+
+                <article class="animal">
+
+                    <img src="c:\Users\Admin\Pictures\Screenshots\Captura de pantalla 2026-10-08 090115.png"
+                         alt="Zeus">
+
+                    <h3>Zeus</h3>
+
+                    <p><strong>Edad:</strong> 2 años</p>
+
+                    <p>
+                        Zeus es un perrito tranquilo, cariñoso y juguetón.
+                    </p>
+
+                    <button>Quiero adoptarlo</button>
+
+                </article>
+
+
+                <!-- PERRO 2 -->
+
+                <article class="animal">
+
+                    <img src="c:\Users\Admin\Pictures\Screenshots\Captura de pantalla 2026-10-08 085936.png"
+                         alt="Estrellita">
+
+                    <h3>Estrellita</h3>
+
+                    <p><strong>Edad:</strong> 1 año</p>
+
+                    <p>
+                        Estrellita es una perrita alegre y amigable.
+                    </p>
+
+                    <button>Quiero adoptarla</button>
+
+                </article>
+
+
+                <!-- GATO 1 -->
+
+                <article class="animal">
+
+                    <img src="c:\Users\Admin\Pictures\Screenshots\Captura de pantalla 2026-10-08 090649.png"
+                         alt="Milo">
+
+                    <h3>Milo</h3>
+
+                    <p><strong>Edad:</strong> 1 año</p>
+
+                    <p>
+                        Milo es un gato tranquilo y cariñoso.
+                    </p>
+
+                    <button>Quiero adoptarlo</button>
+
+                </article>
+
+
+                <!-- GATO 2 -->
+
+                <article class="animal">
+
+                    <img src="c:\Users\Admin\Pictures\Screenshots\Captura de pantalla 2026-10-08 090915.png"
+                         alt="Estrellita">
+
+                    <h3>Estrellita</h3>
+
+                    <p><strong>Edad:</strong> 2 años</p>
+
+                    <p>
+                        Estrellita es una gata amigable y tranquila.
+                    </p>
+
+                    <button>Quiero adoptarla</button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- DONACIONES -->
+
+        <section id="donaciones">
+
+            <h2>Donaciones</h2>
+
+            <p>
+                Las donaciones ayudan a cubrir las necesidades
+                de los animalitos que necesitan apoyo.
+            </p>
+
+
+            <div class="donaciones">
+
+
+                <!-- ALIMENTOS -->
+
+                <article class="donacion">
+
+                    <h3>Alimentos</h3>
+
+                    <ul>
+
+                        <li>Croquetas para perros</li>
+
+                        <li>Croquetas para gatos</li>
+
+                        <li>Alimento húmedo</li>
+
+                        <li>Premios para mascotas</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- COBIJAS -->
+
+                <article class="donacion">
+
+                    <h3>Cobijas y accesorios</h3>
+
+                    <ul>
+
+                        <li>Cobijas</li>
+
+                        <li>Toallas</li>
+
+                        <li>Camas para mascotas</li>
+
+                        <li>Platos para comida y agua</li>
+
+                    </ul>
+
+                </article>
+
+
+                <!-- LIMPIEZA -->
+
+                <article class="donacion">
+
+                    <h3>Artículos de limpieza</h3>
+
+                    <ul>
+
+                        <li>Jabón</li>
+
+                        <li>Desinfectante</li>
+
+                        <li>Cloro</li>
+
+                        <li>Bolsas para basura</li>
+
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CENTRO DE ACOPIO -->
+
+        <section class="acopio">
+
+            <h2>Centro de Acopio</h2>
+
+            <p>
+                <strong>Lugar:</strong>
+                Escuela / Centro Comunitario
+            </p>
+
+            <p>
+                <strong>Fecha:</strong>
+                15 de noviembre
+            </p>
+
+            <p>
+                <strong>Horario:</strong>
+                9:00 a.m. a 2:00 p.m.
+            </p>
+
+            <p>
+                Se recibirán alimentos, cobijas, artículos de
+                limpieza y otros productos para ayudar a los animalitos.
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- PIE DE PAGINA -->
+
+    <footer>
+
+        <p>Huellitas Comunitarias - Proyecto PAEC Realizado por Odalis Perea Cholula 5BVPG</p>
+
+        <p>Proyecto realizado con HTML y CSS</p>
+
+    </footer>
+
+
+</body>
+
+</html>
+
